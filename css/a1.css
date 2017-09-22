@@ -1,0 +1,219 @@
+/*Set the background color of some elements, specifying the color by hex notation.
+Set the border of some elements
+Use the :hover pseudo-class for one or more elements
+Use at least one class-based selector
+Use at least one id-based selector
+Use width and/or height to control the geometry of an element.
+Validate as CSS3 using the W3C CSS validation tool (see link below)*/
+
+/* HOME */
+.my-navbar{
+    padding: 40px;
+}
+
+.my-navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.my-navbar li{
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.my-navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 20px;
+    font-family: 'Aladin', cursive;
+}
+
+.my-navbar li a:hover{
+    color: #7EE594;
+}
+
+.masthead{
+    height: 900px;
+    width: cover;
+    padding: 30px 0px;
+}
+.masthead-img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bella_Coola_Indians_-_Native_North_America_med.jpg/1200px-Bella_Coola_Indians_-_Native_North_America_med.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.masthead-img-2{
+    background-image: url("http://www.ccrd-bc.ca/images/managecontent/-1495185f97993d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 500px;
+}
+.left-descrip{
+    width: 600px;
+}
+.people-pic{
+    height: 500px;
+    width: auto;
+}
+/***GENERAL***/
+
+.float-right{
+    float: right;
+}
+body{
+    background-color: #987284;
+}
+h1{ /*header for home*/
+    color: white;
+    font-size: 10.5em;
+    text-align: center;
+    line-height: 0.9;
+    font-family: 'Berkshire Swash', cursive;
+    margin: auto;
+}
+.h1-container{
+    padding: 80px;
+    width: 700px;
+    height: auto;
+}
+
+h2{ /*header for all other pages*/
+    color: white;
+    font-size: 6.5em;
+    text-align: center;
+    line-height: 0.9;
+    font-family: 'Berkshire Swash', cursive;
+    margin: auto;
+}
+
+h3{
+    color: white;
+    font-size: 2.0em;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+h4{
+    padding: 50px;
+    color: #F4CAE0;
+    font-size: 2.5em;
+    font-family:Aladin;
+}
+.header-container{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bella_Coola_Indians_-_Native_North_America_med.jpg/1200px-Bella_Coola_Indians_-_Native_North_America_med.jpg);
+    padding: 30px;
+}
+
+p{
+    color: white;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5em;
+}
+.inline{
+    display: inline;
+}
+.centered{
+    text-align: center;
+    margin: auto;
+}
+footer{
+    height: 50px;
+    width: auto;
+    
+}
+
+a{
+    color: #EE7674;
+}
+.container{
+    padding: 60px;
+}
+.container img{
+    margin: auto;
+}
+/***PAGE 2***/
+.realm-container{
+    background-color: black;
+    padding: 20px;
+    background: #987284; /* Old browsers */
+    background: -moz-linear-gradient(top, #987284 0%, #000000 22%, #987284 46%, #000000 76%, #987284 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #987284 0%,#000000 22%,#987284 46%,#000000 76%,#987284 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #987284 0%,#000000 22%,#987284 46%,#000000 76%,#987284 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.link-text{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    background-color: #F4CAE0;
+    border-radius: 25px;
+    padding: 7px;
+}
+
+.link-text p{
+    text-align: center;
+    color: #987284;
+}
+
+.text-col{
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+    -webkit-column-rule-style: none; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: none; /* Firefox */
+    column-rule-style: none;
+}
+
+/***HOUSE PAGE ***/
+
+#house-of-myths{
+    background: background: #987284; /* Old browsers */
+    background: -moz-linear-gradient(top, #987284 0%, #000000 31%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #987284 0%,#000000 31%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #987284 0%,#000000 31%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#house-of-myths img:hover{
+    color: (0,250,260,0.5);
+    
+}
+
+/***lANGYAGE**/
+#myth-names-img{
+    height: 400px;
+    width: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.restrained-text{
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+table{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #F4CAE0;
+    border: 4px dotted #7EE594;
+    width: 400px;
+    background-color:#EE7674;
+    
+}
+
+tr{
+    border: 2px solid white;
+}
